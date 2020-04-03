@@ -1,4 +1,4 @@
-package sm3
+package sm2
 
 import (
 	"crypto/ecdsa"

@@ -10,17 +10,17 @@
 goos: darwin
 goarch: amd64
 pkg: benchmark/sm2
-BenchmarkECDSAGenKeyPair/ecdsa-4               38439	     28067 ns/op	     608 B/op	      12 allocs/op
-BenchmarkECDSAGenKeyPair/mixbee-sm2-4    	   32629	     34485 ns/op	    1072 B/op	      20 allocs/op
-BenchmarkECDSAGenKeyPair/tjfoc-sm2-4     	    2072	    554709 ns/op	    2194 B/op	      43 allocs/op
-BenchmarkECDSAGenKeyPair/flyinox-sm2-4   	     270	   4419475 ns/op	  866885 B/op	    9236 allocs/op
-BenchmarkSign/ecdsa-4                    	   17396	     67241 ns/op	    2689 B/op	      32 allocs/op
-BenchmarkSign/mixbee-sm2-4               	   18848	     55259 ns/op	    4472 B/op	      67 allocs/op
-BenchmarkSign/tjfoc-sm2-4                	    2276	    579714 ns/op	    4933 B/op	      77 allocs/op
-BenchmarkSign/flyinox-sm2-4              	     309	   3935704 ns/op	  868950 B/op	    9269 allocs/op
-BenchmarkVerify/ecdsa-4                  	   10000	    143345 ns/op	     928 B/op	      16 allocs/op
-BenchmarkVerify/mixbee-sm2-4             	    6630	    158595 ns/op	    3522 B/op	      35 allocs/op
-BenchmarkVerify/tjfoc-sm2-4              	     391	   3669915 ns/op	   77524 B/op	    1649 allocs/op
+BenchmarkECDSAGenKeyPair/ecdsa-4         38439      28067 ns/op     608 B/op     12 allocs/op
+BenchmarkECDSAGenKeyPair/mixbee-sm2-4    32629      34485 ns/op    1072 B/op     20 allocs/op
+BenchmarkECDSAGenKeyPair/tjfoc-sm2-4     2072      554709 ns/op    2194 B/op     43 allocs/op
+BenchmarkECDSAGenKeyPair/flyinox-sm2-4   270      4419475 ns/op  866885 B/op   9236 allocs/op
+BenchmarkSign/ecdsa-4                   17396     67241 ns/op      2689 B/op      32 allocs/op
+BenchmarkSign/mixbee-sm2-4              18848    55259 ns/op       4472 B/op      67 allocs/op
+BenchmarkSign/tjfoc-sm2-4                2276    579714 ns/op      4933 B/op     77 allocs/op
+BenchmarkSign/flyinox-sm2-4             309	   3935704 ns/op	  868950 B/op	    9269 allocs/op
+BenchmarkVerify/ecdsa-4                  10000	    143345 ns/op	     928 B/op	      16 allocs/op
+BenchmarkVerify/mixbee-sm2-4              6630	    158595 ns/op	    3522 B/op	      35 allocs/op
+BenchmarkVerify/tjfoc-sm2-4               391	   3669915 ns/op	   77524 B/op	    1649 allocs/op
 BenchmarkVerify/flyinox-sm2-4            	     159	   7748317 ns/op	 1734323 B/op	   18513 allocs/op
 ```
 
