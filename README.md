@@ -10,18 +10,18 @@
 goos: darwin
 goarch: amd64
 pkg: benchmark/sm2
-BenchmarkECDSAGenKeyPair/ecdsa-4         38439      28067 ns/op     608 B/op     12 allocs/op
-BenchmarkECDSAGenKeyPair/mixbee-sm2-4    32629      34485 ns/op    1072 B/op     20 allocs/op
-BenchmarkECDSAGenKeyPair/tjfoc-sm2-4     2072      554709 ns/op    2194 B/op     43 allocs/op
-BenchmarkECDSAGenKeyPair/flyinox-sm2-4   270      4419475 ns/op  866885 B/op   9236 allocs/op
-BenchmarkSign/ecdsa-4                   17396     67241 ns/op      2689 B/op      32 allocs/op
-BenchmarkSign/mixbee-sm2-4              18848    55259 ns/op       4472 B/op      67 allocs/op
-BenchmarkSign/tjfoc-sm2-4                2276    579714 ns/op      4933 B/op     77 allocs/op
-BenchmarkSign/flyinox-sm2-4             309	   3935704 ns/op	  868950 B/op	    9269 allocs/op
-BenchmarkVerify/ecdsa-4                  10000	    143345 ns/op	     928 B/op	      16 allocs/op
-BenchmarkVerify/mixbee-sm2-4              6630	    158595 ns/op	    3522 B/op	      35 allocs/op
-BenchmarkVerify/tjfoc-sm2-4               391	   3669915 ns/op	   77524 B/op	    1649 allocs/op
-BenchmarkVerify/flyinox-sm2-4            	     159	   7748317 ns/op	 1734323 B/op	   18513 allocs/op
+BenchmarkECDSAGenKeyPair/ecdsa-4         	   40318	     27249 ns/op	     608 B/op	      12 allocs/op
+BenchmarkECDSAGenKeyPair/mixbee-sm2-4    	   35164	     32346 ns/op	    1072 B/op	      20 allocs/op
+BenchmarkECDSAGenKeyPair/tjfoc-sm2-4     	    2240	    508623 ns/op	    2194 B/op	      43 allocs/op
+BenchmarkECDSAGenKeyPair/flyinox-sm2-4   	     322	   3621020 ns/op	  867267 B/op	    9240 allocs/op
+BenchmarkSign/ecdsa-4                    	   25707	     48930 ns/op	    2689 B/op	      32 allocs/op
+BenchmarkSign/mixbee-sm2-4               	   19486	     59654 ns/op	    4500 B/op	      67 allocs/op
+BenchmarkSign/tjfoc-sm2-4                	    2377	    622073 ns/op	    4932 B/op	      77 allocs/op
+BenchmarkSign/flyinox-sm2-4              	     313	   3675831 ns/op	  867601 B/op	    9255 allocs/op
+BenchmarkVerify/ecdsa-4                  	    7528	    136934 ns/op	     928 B/op	      16 allocs/op
+BenchmarkVerify/mixbee-sm2-4             	    7420	    164178 ns/op	    3474 B/op	      34 allocs/op
+BenchmarkVerify/tjfoc-sm2-4              	     356	   3238721 ns/op	   76068 B/op	    1614 allocs/op
+BenchmarkVerify/flyinox-sm2-4            	     156	   7498268 ns/op	 1765864 B/op	   18821 allocs/op
 ```
 
 
