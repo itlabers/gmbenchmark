@@ -32,19 +32,19 @@ BenchmarkVerify/flyinox-sm2-4            	     159	   7748317 ns/op	 1734323 B/o
 ```
 goos: darwin
 
-​	goarch: amd64
+​goarch: amd64
 
-​	pkg: benchmark/sm3
+​pkg: benchmark/sm3
 
-​	BenchmarkSM3/openssl-sm3-4                458504              2789 ns/op              92 B/op          5 allocs/op
+​BenchmarkSM3/openssl-sm3-4                458504              2789 ns/op              92 B/op          5 allocs/op
 
-​	BenchmarkSM3/sha256-4                    1844538               592 ns/op             160 B/op          2 allocs/op
+​BenchmarkSM3/sha256-4                    1844538               592 ns/op             160 B/op          2 allocs/op
 
-​	BenchmarkSM3/mixbee-sm3-4                 806316              1468 ns/op             144 B/op          2 allocs/op
+​BenchmarkSM3/mixbee-sm3-4                 806316              1468 ns/op             144 B/op          2 allocs/op
 
-​	BenchmarkSM3/tjfoc-sm3-4                  789799              1679 ns/op             216 B/op          6 allocs/op
+​BenchmarkSM3/tjfoc-sm3-4                  789799              1679 ns/op             216 B/op          6 allocs/op
 
-​	BenchmarkSM3/flyinox-sm3-4                973172              1198 ns/op             144 B/op          2 allocs/op 
+​BenchmarkSM3/flyinox-sm3-4                973172              1198 ns/op             144 B/op          2 allocs/op 
 ```
  
 
@@ -61,4 +61,3 @@ BenchmarkEncrypt/mixbee-sm4-4         	 2510671	       452 ns/op	       0 B/op	 
 BenchmarkEncrypt/tjfoc-sm4-4          	 5030077	       232 ns/op	       0 B/op	       0 allocs/op
 BenchmarkEncrypt/flyinox-sm4-4        	  444978	      2619 ns/op	     112 B/op	       5 allocs/op
 ```
-

@@ -17,4 +17,5 @@
 # vendor/
 go.sum
 .vscode
+.idea
 
